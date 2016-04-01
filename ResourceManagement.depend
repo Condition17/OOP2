@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1459535007 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.cpp
+
+1459537716 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\main.cpp
+	<iostream>
+	"resource_manager.h"
+
+1459537843 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.h
+
