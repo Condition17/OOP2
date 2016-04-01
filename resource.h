@@ -3,8 +3,10 @@
 
 class resource{
     protected:
+
         char* path;
     public:
+        char* get_resource_path();
         resource(char* file_path);
         ~resource();
 };

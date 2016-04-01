@@ -32,7 +32,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="game_object.cpp" />
+		<Unit filename="game_object.h" />
+		<Unit filename="image.cpp" />
+		<Unit filename="image.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="resource.cpp" />
+		<Unit filename="resource.h" />
+		<Unit filename="resource_manager.cpp" />
+		<Unit filename="resource_manager.h" />
+		<Unit filename="tree.cpp" />
+		<Unit filename="tree.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

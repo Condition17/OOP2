@@ -1,37 +1,42 @@
 # depslib dependency file v1.0
-1459537886 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.cpp
+1459549787 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.cpp
 	<iostream>
+	<map>
 	"resource_manager.h"
+	"resource.h"
 
-1459544770 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\main.cpp
+1459550198 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\main.cpp
 	<iostream>
 	"resource_manager.h"
 	"tree.h"
+	"image.h"
 
-1459537843 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.h
+1459550440 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.h
+	<map>
+	"resource.h"
 
 1459544803 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.h
 	"game_object.h"
 	"tree.h"
 
-1459544007 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.h
+1459550027 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.h
 
 1459544813 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.cpp
 	"game_object.h"
 	"tree.h"
 
-1459544581 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.cpp
+1459550045 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.cpp
 	"game_object.h"
 
-1459545826 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource.cpp
+1459550667 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource.cpp
 	"resource.h"
 
-1459548098 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource.h
+1459550637 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource.h
 
 1459548073 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.cpp
 	"image.h"
 	"resource.h"
 
-1459548104 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.h
+1459550366 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.h
 	"resource.h"
 
