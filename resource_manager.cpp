@@ -16,7 +16,10 @@ void Resource_manager::Add(char* map_key, resource& res){
 }
 
 void Resource_manager::initialize(char* map_key){
+        std::cout<<"--"<<map_key<<"\n";
+        manager[ map_key ] = NULL;
         manager.erase(map_key);
+
     }
 
 Resource_manager::~Resource_manager(){
