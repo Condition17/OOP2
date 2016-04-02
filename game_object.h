@@ -6,11 +6,12 @@ class game_object{
 
     private:
         int x,y,collider;
-     protected:
-      char* image_label;
+        char* image_label;
+        char* sound_label;
     public:
-    char* get_label();
-    game_object(int x_position, int y_position, int collider_position, char* label);
+    char* get_image_label();
+    char* get_sound_label();
+    game_object(int x_position, int y_position, int collider_position, char* i_label, char* s_label);
     ~game_object();
 
 };

@@ -11,10 +11,10 @@ Resource_manager::Resource_manager(){
     }
 void Resource_manager::Add(char* map_key, resource& res){
     manager[ map_key ] = &res;
-    std::cout<< "Added"<< manager[map_key] -> get_resource_path();
-    image* img = dynamic_cast< image* >(&res);
-    img -> print_speciffic();
+    std::cout<< "Added"<< manager[map_key] -> get_resource_path()<<"\n";
+    std::cout<< manager[ map_key ]<<"\n";
 }
+
 void Resource_manager::initialize(char* map_key){
         manager.erase(map_key);
     }
@@ -29,12 +29,12 @@ void Resource_manager::write(){
 }
 
 void Resource_manager::show(){
-    std::map<char*, resource*>::iterator it;
+    std::map<char*,resource*>::iterator it;
 
     for ( it = manager.begin(); it != manager.end(); it++ ){
     std::cout << it->first  // string (key)
               << ':'
-              << it->second;   // string's value
+              << it->second<<"\n";   // string's value
 }
 }
 
