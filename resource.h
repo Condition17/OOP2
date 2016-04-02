@@ -8,7 +8,7 @@ class resource{
     public:
         char* get_resource_path();
         resource(char* file_path);
-        ~resource();
+        virtual ~resource();
 };
 
 #endif // RESOURCE_H_INCLUDED

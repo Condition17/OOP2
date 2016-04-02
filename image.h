@@ -2,10 +2,10 @@
 #define IMAGE_H_INCLUDED
 #include "resource.h"
 class image: public resource {
-
+    char* speciffic;
     public:
-
-    image(char* file_path);
+    void print_speciffic();
+    image(char* file_path, char* image_speciffic);
     char* get_path();
 };
 

@@ -13,8 +13,11 @@ class Resource_manager{
      static Resource_manager* instance(){
             return current_manager;
         }
+
     void Add(char* map_key, resource& res);
+    void initialize( char* map_key );
     void write();
+    void show();
 };
 
 

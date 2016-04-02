@@ -1,42 +1,47 @@
 # depslib dependency file v1.0
-1459549787 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.cpp
+1459604892 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.cpp
 	<iostream>
 	<map>
 	"resource_manager.h"
 	"resource.h"
+	"image.h"
 
-1459550198 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\main.cpp
+1459604531 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\main.cpp
 	<iostream>
 	"resource_manager.h"
 	"tree.h"
 	"image.h"
 
-1459550440 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.h
+1459604037 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.h
 	<map>
 	"resource.h"
 
-1459544803 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.h
+1459596416 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.h
 	"game_object.h"
 	"tree.h"
 
-1459550027 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.h
+1459602850 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.h
 
-1459544813 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.cpp
+1459603649 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.cpp
 	"game_object.h"
 	"tree.h"
+	"resource_manager.h"
+	<iostream>
 
-1459550045 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.cpp
+1459602734 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.cpp
 	"game_object.h"
+	"tree.h"
 
 1459550667 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource.cpp
 	"resource.h"
 
-1459550637 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource.h
+1459594928 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource.h
 
-1459548073 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.cpp
+1459593784 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.cpp
 	"image.h"
 	"resource.h"
+	<iostream>
 
-1459550366 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.h
+1459594188 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.h
 	"resource.h"
 

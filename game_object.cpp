@@ -1,5 +1,5 @@
 #include "game_object.h"
-
+#include "tree.h"
 char* game_object::get_label(){
     return image_label;
 }

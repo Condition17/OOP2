@@ -2,23 +2,39 @@
 #include <map>
 #include "resource_manager.h"
 #include "resource.h"
+#include "image.h"
 
-using namespace std;
 Resource_manager* Resource_manager::current_manager( new Resource_manager );
 
 Resource_manager::Resource_manager(){
         a = 2;
     }
-
-void Resource_manager::write(){
-    cout<< a;
-}
 void Resource_manager::Add(char* map_key, resource& res){
     manager[ map_key ] = &res;
-    cout<<"Added"<< manager[map_key] -> get_resource_path();
+    std::cout<< "Added"<< manager[map_key] -> get_resource_path();
+    image* img = dynamic_cast< image* >(&res);
+    img -> print_speciffic();
 }
+void Resource_manager::initialize(char* map_key){
+        manager.erase(map_key);
+    }
+
 Resource_manager::~Resource_manager(){
     delete current_manager;
 
+}
+
+void Resource_manager::write(){
+    std::cout<< a;
+}
+
+void Resource_manager::show(){
+    std::map<char*, resource*>::iterator it;
+
+    for ( it = manager.begin(); it != manager.end(); it++ ){
+    std::cout << it->first  // string (key)
+              << ':'
+              << it->second;   // string's value
+}
 }
 

@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="game_object.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="84" topLine="0" />
+	<File name="game_object.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="343" topLine="0" />
 	</File>
 	<File name="game_object.h" open="0" top="0" tabpos="0">
 		<Cursor position="178" topLine="0" />
 	</File>
 	<File name="image.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="143" topLine="0" />
+		<Cursor position="229" topLine="0" />
 	</File>
-	<File name="image.h" open="1" top="0" tabpos="4">
-		<Cursor position="158" topLine="0" />
+	<File name="image.h" open="1" top="0" tabpos="5">
+		<Cursor position="280" topLine="0" />
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="2">
-		<Cursor position="260" topLine="0" />
+	<File name="main.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="457" topLine="0" />
 	</File>
 	<File name="resource.cpp" open="1" top="0" tabpos="3">
 		<Cursor position="31" topLine="0" />
 	</File>
 	<File name="resource.h" open="0" top="0" tabpos="0">
-		<Cursor position="75" topLine="0" />
+		<Cursor position="217" topLine="0" />
 	</File>
-	<File name="resource_manager.cpp" open="1" top="1" tabpos="5">
-		<Cursor position="535" topLine="0" />
+	<File name="resource_manager.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="637" topLine="0" />
 	</File>
 	<File name="resource_manager.h" open="1" top="0" tabpos="1">
-		<Cursor position="464" topLine="0" />
+		<Cursor position="291" topLine="0" />
 	</File>
-	<File name="tree.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="225" topLine="0" />
+	<File name="tree.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="247" topLine="0" />
 	</File>
-	<File name="tree.h" open="0" top="0" tabpos="0">
-		<Cursor position="286" topLine="0" />
+	<File name="tree.h" open="1" top="0" tabpos="7">
+		<Cursor position="333" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>
