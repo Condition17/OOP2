@@ -16,15 +16,12 @@ void Resource_manager::Add(char* map_key, resource& res){
 }
 
 void Resource_manager::initialize(char* map_key){
-        std::cout<<"--"<<map_key<<"\n";
-        manager[ map_key ] = NULL;
+        delete manager[ map_key ];
         manager.erase(map_key);
-
     }
 
 Resource_manager::~Resource_manager(){
     delete current_manager;
-
 }
 
 void Resource_manager::write(){
@@ -33,11 +30,12 @@ void Resource_manager::write(){
 
 void Resource_manager::show(){
     std::map<char*,resource*>::iterator it;
-
     for ( it = manager.begin(); it != manager.end(); it++ ){
-    std::cout << it->first  // string (key)
+
+    std::cout << it->first
               << ':'
-              << it->second<<"\n";   // string's value
+              << it->second -> get_resource_path()<<"\n";// string's value
 }
+
 }
 

@@ -8,5 +8,6 @@ resource::resource(char* file_path){
     path = file_path;
 }
 resource::~resource(){
+    std::cout<<"Destructed resource with path: \n"<<path<<"\n";
     delete path;
 }
