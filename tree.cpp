@@ -27,7 +27,6 @@ int tree::get_number(){
 tree::~tree(){
     nr_trees--;
     if ( nr_trees == 0 ) {
-
         Resource_manager::instance() -> initialize(get_sound_label());
         Resource_manager::instance() -> initialize(get_image_label());
         cout<<"Destroiyed\n";
