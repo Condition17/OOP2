@@ -41,8 +41,12 @@
 		<Unit filename="resource.h" />
 		<Unit filename="resource_manager.cpp" />
 		<Unit filename="resource_manager.h" />
+		<Unit filename="sound.cpp" />
+		<Unit filename="sound.h" />
 		<Unit filename="tree.cpp" />
 		<Unit filename="tree.h" />
+		<Unit filename="video.cpp" />
+		<Unit filename="video.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

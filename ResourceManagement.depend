@@ -6,7 +6,7 @@
 	"resource.h"
 	"image.h"
 
-1459630584 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\main.cpp
+1459632672 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\main.cpp
 	<iostream>
 	"resource_manager.h"
 	"tree.h"
@@ -15,19 +15,16 @@
 	<map>
 	"resource.h"
 
-1459624707 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.h
+1459672263 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.h
 	"game_object.h"
-	"tree.h"
 
 1459631096 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.h
 
-1459631225 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.cpp
+1459672419 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.cpp
 	"game_object.h"
 	"tree.h"
 	"resource_manager.h"
 	<iostream>
-	"image.h"
-	"video.h"
 
 1459631084 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.cpp
 	"resource_manager.h"
@@ -64,4 +61,13 @@
 
 1459625821 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\video.h
 	"resource.h"
+
+1459672599 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\rock.cpp
+	"game_object.h"
+	"rock.h"
+	"resource_manager.h"
+	<iostream>
+
+1459672613 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\rock.h
+	"game_object.h"
 

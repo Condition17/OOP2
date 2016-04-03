@@ -2,8 +2,7 @@
 #include "tree.h"
 #include "resource_manager.h"
 #include <iostream>
-#include "image.h"
-#include "video.h"
+
 
 using namespace std;
 int tree::nr_trees = 0;
