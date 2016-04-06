@@ -30,5 +30,4 @@ game_object::game_object(int x_position, int y_position, int collider_position, 
     video_label = v_label;
 }
 game_object::~game_object(){
-    delete image_label;
 }

@@ -2,10 +2,6 @@
 #include "rock.h"
 #include "resource_manager.h"
 #include <iostream>
-
-
-
-using namespace std;
 int rock::nr_rocks = 0;
 
 rock::rock(int dmg, int x, int y, int collider):
@@ -27,6 +23,6 @@ rock::~rock(){
         if ( sound_label )Resource_manager::instance() -> initialize( sound_label );
         if ( image_label ) Resource_manager::instance() -> initialize( image_label );
         if ( video_label )Resource_manager::instance() -> initialize( video_label );
-        cout<<"Destroiyed\n";
+        std::cout<<"Destroyed rock from resources\n";
     }
 }
