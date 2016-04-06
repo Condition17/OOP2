@@ -6,15 +6,12 @@ class game_object{
 
 
      private: int x,y,collider;
-      protected:
+     protected:
         char* image_label;
         char* sound_label;
         char* video_label;
-    public:
-    char* get_image_label();
-    char* get_sound_label();
-     char* get_video_label();
 
+    public:
     void set_image_mapping(char* source_path);
     void set_sound_mapping(char* source_path);
     void set_video_mapping(char* source_path);

@@ -7,7 +7,6 @@
 Resource_manager* Resource_manager::current_manager( new Resource_manager );
 
 Resource_manager::Resource_manager(){
-        a = 2;
     }
 void Resource_manager::Add(char* map_key, resource& res){
     manager[ map_key ] = &res;
@@ -21,21 +20,19 @@ void Resource_manager::initialize(char* map_key){
     }
 
 Resource_manager::~Resource_manager(){
+     std::map<char*,resource*>::iterator it;
+    for ( it = manager.begin(); it != manager.end(); it++ ){
+     delete it -> second;
+     manager.erase( it -> first );
+     }
     delete current_manager;
 }
-
-void Resource_manager::write(){
-    std::cout<< a;
-}
-
 void Resource_manager::show(){
     std::map<char*,resource*>::iterator it;
-    for ( it = manager.begin(); it != manager.end(); it++ ){
-
+    for ( it = manager.begin(); it != manager.end(); it++ )
     std::cout << it->first
               << ':'
               << it->second -> get_resource_path()<<"\n";// string's value
-}
 
 }
 

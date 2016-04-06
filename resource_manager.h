@@ -10,13 +10,14 @@ class Resource_manager{
         Resource_manager();
         ~Resource_manager();
     public:
-     static Resource_manager* instance(){
+
+    static Resource_manager* instance(){
             return current_manager;
         }
 
+    void test_destructor();
     void Add(char* map_key, resource& res);
     void initialize( char* map_key );
-    void write();
     void show();
 };
 

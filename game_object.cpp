@@ -4,17 +4,6 @@
 #include "sound.h"
 #include "video.h"
 
-
-char* game_object::get_image_label(){
-    return image_label;
-}
-char* game_object::get_sound_label(){
-    return sound_label;
-}
-
-char* game_object::get_video_label(){
-    return video_label;
-}
 void game_object::set_image_mapping(char* source_path){
       image* img = new image(source_path);
      Resource_manager::instance() -> Add(image_label,*img);

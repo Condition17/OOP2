@@ -23,9 +23,11 @@ Resource_manager::instance() -> show();
     delete g;
  //   Resource_manager::instance() -> show();
  Resource_manager::instance() -> show();
-    delete h;
-Resource_manager::instance() -> show();
+
     delete r1;
+
+Resource_manager::instance() -> show();
+delete h;
     cout<<"final:\n";
 Resource_manager::instance() -> show();
     return 0;

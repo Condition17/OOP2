@@ -1,32 +1,33 @@
 # depslib dependency file v1.0
-1459630176 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.cpp
+1459956410 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.cpp
 	<iostream>
 	<map>
 	"resource_manager.h"
 	"resource.h"
 	"image.h"
 
-1459632672 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\main.cpp
+1459956244 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\main.cpp
 	<iostream>
 	"resource_manager.h"
 	"tree.h"
+	"rock.h"
 
-1459604037 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.h
+1459956194 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.h
 	<map>
 	"resource.h"
 
 1459672263 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.h
 	"game_object.h"
 
-1459631096 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.h
+1459953040 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.h
 
-1459672419 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.cpp
+1459953408 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.cpp
 	"game_object.h"
 	"tree.h"
 	"resource_manager.h"
 	<iostream>
 
-1459631084 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.cpp
+1459953060 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.cpp
 	"resource_manager.h"
 	"game_object.h"
 	"image.h"
@@ -62,7 +63,7 @@
 1459625821 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\video.h
 	"resource.h"
 
-1459672599 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\rock.cpp
+1459953316 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\rock.cpp
 	"game_object.h"
 	"rock.h"
 	"resource_manager.h"

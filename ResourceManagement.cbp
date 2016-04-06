@@ -41,6 +41,8 @@
 		<Unit filename="resource.h" />
 		<Unit filename="resource_manager.cpp" />
 		<Unit filename="resource_manager.h" />
+		<Unit filename="rock.cpp" />
+		<Unit filename="rock.h" />
 		<Unit filename="sound.cpp" />
 		<Unit filename="sound.h" />
 		<Unit filename="tree.cpp" />
