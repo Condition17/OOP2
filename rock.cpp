@@ -1,7 +1,6 @@
+#include <iostream>
 #include "game_object.h"
 #include "rock.h"
-#include "resource_manager.h"
-#include <iostream>
 int rock::nr_rocks = 0;
 
 rock::rock(int dmg, int x, int y, int collider):

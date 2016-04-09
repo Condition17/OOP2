@@ -3,8 +3,8 @@
 #include "resource.h"
 class image: public resource {
     public:
-    char* speciffic;
     image(char* file_path);
+    char* get_speciffic();
 };
 
 #endif // IMAGE_H_INCLUDED

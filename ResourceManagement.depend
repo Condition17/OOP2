@@ -1,33 +1,31 @@
 # depslib dependency file v1.0
-1460223835 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.cpp
+1460214292 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.cpp
 	<iostream>
 	<map>
 	"resource_manager.h"
 
-1460226360 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\main.cpp
+1460215290 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\main.cpp
 	<iostream>
 	"resource_manager.h"
 	"tree.h"
 	"rock.h"
 
-1460226351 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.h
+1459956194 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.h
 	<map>
-	"image.h"
 	"resource.h"
-	<iostream>
 
 1459672263 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.h
 	"game_object.h"
 
 1459953040 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.h
 
-1460215325 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.cpp
+1460214475 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.cpp
 	"game_object.h"
 	"tree.h"
 	"resource_manager.h"
 	<iostream>
 
-1460226050 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.cpp
+1459962992 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.cpp
 	"resource_manager.h"
 	"game_object.h"
 	"image.h"
@@ -40,12 +38,12 @@
 
 1459594928 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource.h
 
-1460226467 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.cpp
+1459631171 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.cpp
 	"image.h"
 	"resource.h"
 	<iostream>
 
-1460224827 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.h
+1459631141 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.h
 	"resource.h"
 
 1459626716 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\sound.cpp
@@ -71,4 +69,72 @@
 
 1459959861 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\rock.h
 	"game_object.h"
+
+1460231019 source:c:\users\cristian\desktop\oop2-master\game_object.cpp
+	"resource_manager.h"
+	"game_object.h"
+	"image.h"
+	"sound.h"
+	"video.h"
+
+1460231445 c:\users\cristian\desktop\oop2-master\resource_manager.h
+	<map>
+	"resource.h"
+
+1460231431 c:\users\cristian\desktop\oop2-master\resource.h
+
+1460231045 c:\users\cristian\desktop\oop2-master\game_object.h
+
+1460230947 c:\users\cristian\desktop\oop2-master\image.h
+	"resource.h"
+
+1460230921 c:\users\cristian\desktop\oop2-master\sound.h
+	"resource.h"
+
+1460230911 c:\users\cristian\desktop\oop2-master\video.h
+	"resource.h"
+
+1460230901 source:c:\users\cristian\desktop\oop2-master\image.cpp
+	"image.h"
+	"resource.h"
+
+1460229905 source:c:\users\cristian\desktop\oop2-master\main.cpp
+	<iostream>
+	"resource_manager.h"
+	"tree.h"
+	"rock.h"
+
+1460229945 c:\users\cristian\desktop\oop2-master\tree.h
+	"game_object.h"
+
+1460231451 c:\users\cristian\desktop\oop2-master\rock.h
+	"game_object.h"
+
+1460230883 source:c:\users\cristian\desktop\oop2-master\resource.cpp
+	"resource.h"
+	<iostream>
+
+1460230926 source:c:\users\cristian\desktop\oop2-master\resource_manager.cpp
+	<iostream>
+	<map>
+	"resource_manager.h"
+	"resource.h"
+
+1460231351 source:c:\users\cristian\desktop\oop2-master\rock.cpp
+	<iostream>
+	"game_object.h"
+	"rock.h"
+
+1460230916 source:c:\users\cristian\desktop\oop2-master\sound.cpp
+	"resource.h"
+	"sound.h"
+
+1460230845 source:c:\users\cristian\desktop\oop2-master\tree.cpp
+	"game_object.h"
+	"tree.h"
+	"resource_manager.h"
+
+1460231240 source:c:\users\cristian\desktop\oop2-master\video.cpp
+	"resource.h"
+	"video.h"
 

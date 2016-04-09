@@ -1,10 +1,8 @@
 #include "image.h"
 #include "resource.h"
-#include <iostream>
 using namespace std;
-image::image(char* file_path):resource(file_path){
-speciffic = "jpg";
+image::image(char* file_path):resource(file_path){}
+char* image::get_speciffic(){
+    return "This is a image";
 }
-void show_speciffic(){
-    cout<<"jpg";
-}
+

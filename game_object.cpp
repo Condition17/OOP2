@@ -3,11 +3,9 @@
 #include "image.h"
 #include "sound.h"
 #include "video.h"
-
 void game_object::set_image_mapping(char* source_path){
-
       image* img = new image(source_path);
-     Resource_manager::instance() -> Add(image_label, img);
+     Resource_manager::instance() -> Add(image_label,img);
 }
 
 void game_object::set_sound_mapping(char* source_path){

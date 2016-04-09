@@ -1,6 +1,5 @@
 #ifndef RESOURCE_H_INCLUDED
 #define RESOURCE_H_INCLUDED
-
 class resource{
     protected:
 

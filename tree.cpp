@@ -1,8 +1,6 @@
+#include <iostream>
 #include "game_object.h"
 #include "tree.h"
-#include "resource_manager.h"
-#include <iostream>
-
 int tree::nr_trees = 0;
 
 tree::tree(char* leaf_collor, int leafs, int x, int y, int collider):

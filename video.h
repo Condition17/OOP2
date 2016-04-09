@@ -4,6 +4,7 @@
 class video: public resource {
     public:
     video(char* file_path);
+    char* get_speciffic();
 };
 
 #endif // VIDEO_H_INCLUDED
