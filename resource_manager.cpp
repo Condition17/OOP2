@@ -7,8 +7,10 @@ Resource_manager* Resource_manager::current_manager( new Resource_manager );
 Resource_manager::Resource_manager(){
     }
 void Resource_manager::Add(char* map_key, resource& res){
-    manager[ map_key ] = &res;
-    std::cout<< "Added "<< manager[map_key] -> get_resource_path()<<"\n";
+   if(!manager[ map_key ]){
+       manager[ map_key ] = &res;
+       std::cout<< "Added "<< manager[map_key] -> get_resource_path()<<"\n";
+        }
 }
 
 void Resource_manager::initialize(char* map_key){

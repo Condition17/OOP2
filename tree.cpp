@@ -20,11 +20,12 @@ game_object(x,y,collider, "tree_image" , "tree_sound" , "tree_video"){
 
 tree::~tree(){
     nr_trees--;
-    if ( nr_trees == 0 ) {
+ /*  if ( nr_trees == 0 ) {
         if ( sound_label ) Resource_manager::instance() -> initialize( sound_label );
         if ( image_label ) Resource_manager::instance() -> initialize( image_label );
         if ( video_label )Resource_manager::instance() -> initialize( video_label );
+
         std::cout<<"Destroiyed tree from resources\n";
-    }
+ }*/
 }
 

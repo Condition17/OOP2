@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+
     tree* t = new tree("green",2,1,2,22);
     tree* g = new tree("yellow",3,1,21,34);
     tree* h = new tree("black",3,15,21,34);
@@ -14,7 +15,6 @@ int main()
     Resource_manager::instance() -> show();
 
     delete t;
-    cout<<"\n---\n";\
 Resource_manager::instance() -> show();
     delete g;
  Resource_manager::instance() -> show();
@@ -22,7 +22,8 @@ Resource_manager::instance() -> show();
 Resource_manager::instance() -> show();
     delete h;
 
-cout<<"After deleting:\n";
+cout<<"After deleting all game objects:\n";
 Resource_manager::instance() -> show();
+
     return 0;
 }

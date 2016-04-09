@@ -19,10 +19,11 @@ game_object(x,y,collider, "rock_image" , NULL , NULL){
 
 rock::~rock(){
     nr_rocks--;
-    if ( nr_rocks == 0 ) {
+   /* if ( nr_rocks == 0 ) {
         if ( sound_label )Resource_manager::instance() -> initialize( sound_label );
         if ( image_label ) Resource_manager::instance() -> initialize( image_label );
         if ( video_label )Resource_manager::instance() -> initialize( video_label );
+
         std::cout<<"Destroyed rock from resources\n";
-    }
+    }*/
 }
