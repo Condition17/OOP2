@@ -1,7 +1,9 @@
 #ifndef RESOURCE_MANAGER_H_INCLUDED
 #define RESOURCE_MANAGER_H_INCLUDED
 #include <map>
+#include "image.h"
 #include "resource.h"
+#include <iostream>
 class Resource_manager{
     private:
         int a;
@@ -14,11 +16,10 @@ class Resource_manager{
     static Resource_manager* instance(){
             return current_manager;
         }
-
-    void test_destructor();
-    void Add(char* map_key, resource& res);
+    void Add(char* map_key, resource* res);
     void initialize( char* map_key );
     void show();
+
 };
 
 

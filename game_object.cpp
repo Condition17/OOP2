@@ -5,18 +5,19 @@
 #include "video.h"
 
 void game_object::set_image_mapping(char* source_path){
+
       image* img = new image(source_path);
-     Resource_manager::instance() -> Add(image_label,*img);
+     Resource_manager::instance() -> Add(image_label, img);
 }
 
 void game_object::set_sound_mapping(char* source_path){
       sound* s = new sound(source_path);
-     Resource_manager::instance() -> Add(sound_label,*s);
+     Resource_manager::instance() -> Add(sound_label, s);
 }
 
 void game_object::set_video_mapping(char* source_path){
       video* v = new video(source_path);
-     Resource_manager::instance() -> Add(video_label,*v);
+     Resource_manager::instance() -> Add(video_label, v);
 }
 
 

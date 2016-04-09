@@ -6,9 +6,9 @@ Resource_manager* Resource_manager::current_manager( new Resource_manager );
 
 Resource_manager::Resource_manager(){
     }
-void Resource_manager::Add(char* map_key, resource& res){
-   if(!manager[ map_key ]){
-       manager[ map_key ] = &res;
+void Resource_manager::Add(char* map_key, resource* res){
+   if(manager[ map_key ] != NULL){
+       manager[ map_key ] = res;
        std::cout<< "Added "<< manager[map_key] -> get_resource_path()<<"\n";
         }
 }

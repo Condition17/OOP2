@@ -3,6 +3,7 @@
 #include "resource.h"
 class image: public resource {
     public:
+    char* speciffic;
     image(char* file_path);
 };
 
