@@ -2,6 +2,7 @@
 #include "resource_manager.h"
 #include "tree.h"
 #include "rock.h"
+#include "image.h"
 using namespace std;
 
 int main()
@@ -13,6 +14,8 @@ int main()
     rock* r1 = new rock(200,3,15,21);
 
     Resource_manager::instance() -> show();
+    image* im = dynamic_cast<image*>( Resource_manager::instance()->get_resource("tree_image"));
+    cout<< im -> get_speciffic();
     delete t;
     Resource_manager::instance() -> show();
     delete g;
