@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="game_object.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="178" topLine="0" />
+	</File>
+	<File name="game_object.h" open="0" top="0" tabpos="0">
+		<Cursor position="215" topLine="0" />
+	</File>
+	<File name="image.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="40" topLine="0" />
+	</File>
+	<File name="image.h" open="0" top="0" tabpos="3">
+		<Cursor position="202" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="341" topLine="9" />
+	</File>
+	<File name="resource.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="181" topLine="0" />
+	</File>
+	<File name="resource.h" open="0" top="0" tabpos="3">
+		<Cursor position="56" topLine="0" />
+	</File>
+	<File name="resource_manager.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="165" topLine="0" />
+	</File>
+	<File name="resource_manager.h" open="1" top="0" tabpos="8">
+		<Cursor position="204" topLine="0" />
+	</File>
+	<File name="rock.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="212" topLine="0" />
+	</File>
+	<File name="rock.h" open="1" top="0" tabpos="5">
+		<Cursor position="366" topLine="0" />
+	</File>
+	<File name="sound.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="156" topLine="0" />
+	</File>
+	<File name="sound.h" open="0" top="0" tabpos="0">
+		<Cursor position="173" topLine="0" />
+	</File>
+	<File name="tree.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="306" topLine="0" />
+	</File>
+	<File name="tree.h" open="1" top="1" tabpos="10">
+		<Cursor position="173" topLine="0" />
+	</File>
+	<File name="video.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="160" topLine="0" />
+	</File>
+	<File name="video.h" open="1" top="0" tabpos="2">
+		<Cursor position="173" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

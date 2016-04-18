@@ -1,0 +1,313 @@
+# depslib dependency file v1.0
+1459611565 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.cpp
+	<iostream>
+	<map>
+	"resource_manager.h"
+	"resource.h"
+	"image.h"
+
+1459611543 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\main.cpp
+	<iostream>
+	"resource_manager.h"
+	"tree.h"
+	"image.h"
+	"sound.h"
+
+1459604037 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource_manager.h
+	<map>
+	"resource.h"
+
+1459596416 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.h
+	"game_object.h"
+	"tree.h"
+
+1459611433 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.h
+
+1459611096 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\tree.cpp
+	"game_object.h"
+	"tree.h"
+	"resource_manager.h"
+	<iostream>
+
+1459611516 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\game_object.cpp
+	"game_object.h"
+	"tree.h"
+
+1459610569 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource.cpp
+	"resource.h"
+	<iostream>
+
+1459594928 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\resource.h
+
+1459593784 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.cpp
+	"image.h"
+	"resource.h"
+	<iostream>
+
+1459594188 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\image.h
+	"resource.h"
+
+1459610486 source:f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\sound.cpp
+	"resource.h"
+	"sound.h"
+
+1459608790 f:\fmi\semestrul 2\oop\resourcemanagement\resourcemanagement\sound.h
+
+1460230901 source:c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\image.cpp
+	"image.h"
+	"resource.h"
+
+1460230947 c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\image.h
+	"resource.h"
+
+1460235964 c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\resource.h
+
+1460233883 source:c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\main.cpp
+	<iostream>
+	"resource_manager.h"
+	"tree.h"
+	"image.h"
+	"sound.h"
+	"video.h"
+
+1460231445 c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\resource_manager.h
+	<map>
+	"resource.h"
+
+1460236266 c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\tree.h
+	"game_object.h"
+
+1460221630 c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\game_object.h
+
+1460236199 c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\sound.h
+	"resource.h"
+
+1460225988 source:c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\resource.cpp
+	"resource.h"
+	<iostream>
+
+1460234816 source:c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\tree.cpp
+	"game_object.h"
+	"tree.h"
+
+1460221208 source:c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\game_object.cpp
+	"game_object.h"
+
+1460230916 source:c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\sound.cpp
+	"resource.h"
+	"sound.h"
+
+1460233927 source:c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\resource_manager.cpp
+	<iostream>
+	<map>
+	"resource_manager.h"
+	"resource.h"
+
+1460231240 source:c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\video.cpp
+	"resource.h"
+	"video.h"
+
+1460230911 c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\video.h
+	"resource.h"
+
+1460234892 source:c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\rock.cpp
+	"game_object.h"
+	"rock.h"
+
+1460236130 c:\users\cristian\desktop\oop2-304e6bd93a1bb6aad2bbe7b3b995cd5055454768\rock.h
+	"game_object.h"
+
+1460221208 source:f:\fmi\semestrul 2\oop\oop2- version 2\game_object.cpp
+	"game_object.h"
+
+1460221630 f:\fmi\semestrul 2\oop\oop2- version 2\game_object.h
+
+1460235933 source:f:\fmi\semestrul 2\oop\oop2- version 2\image.cpp
+	"image.h"
+	"resource.h"
+
+1460230947 f:\fmi\semestrul 2\oop\oop2- version 2\image.h
+	"resource.h"
+
+1460235964 f:\fmi\semestrul 2\oop\oop2- version 2\resource.h
+
+1460235876 source:f:\fmi\semestrul 2\oop\oop2- version 2\main.cpp
+	"resource_manager.h"
+	"tree.h"
+	"image.h"
+	"sound.h"
+	"video.h"
+	"rock.h"
+
+1460236026 f:\fmi\semestrul 2\oop\oop2- version 2\resource_manager.h
+	<map>
+	"resource.h"
+
+1460236266 f:\fmi\semestrul 2\oop\oop2- version 2\tree.h
+	"game_object.h"
+
+1460236199 f:\fmi\semestrul 2\oop\oop2- version 2\sound.h
+	"resource.h"
+
+1460236295 f:\fmi\semestrul 2\oop\oop2- version 2\video.h
+	"resource.h"
+
+1460236130 f:\fmi\semestrul 2\oop\oop2- version 2\rock.h
+	"game_object.h"
+
+1460235983 source:f:\fmi\semestrul 2\oop\oop2- version 2\resource.cpp
+	"resource.h"
+	<iostream>
+
+1460236102 source:f:\fmi\semestrul 2\oop\oop2- version 2\resource_manager.cpp
+	<iostream>
+	<map>
+	"resource_manager.h"
+	"resource.h"
+
+1460234892 source:f:\fmi\semestrul 2\oop\oop2- version 2\rock.cpp
+	"game_object.h"
+	"rock.h"
+
+1460230916 source:f:\fmi\semestrul 2\oop\oop2- version 2\sound.cpp
+	"resource.h"
+	"sound.h"
+
+1460234816 source:f:\fmi\semestrul 2\oop\oop2- version 2\tree.cpp
+	"game_object.h"
+	"tree.h"
+
+1460236301 source:f:\fmi\semestrul 2\oop\oop2- version 2\video.cpp
+	"resource.h"
+	"video.h"
+
+1460372930 source:f:\fmi\semestrul 2\oop\oop2- version 3\game_object.cpp
+	"game_object.h"
+
+1460373477 f:\fmi\semestrul 2\oop\oop2- version 3\game_object.h
+
+1460306018 source:f:\fmi\semestrul 2\oop\oop2- version 3\image.cpp
+	"image.h"
+	"resource.h"
+
+1460230947 f:\fmi\semestrul 2\oop\oop2- version 3\image.h
+	"resource.h"
+
+1460235964 f:\fmi\semestrul 2\oop\oop2- version 3\resource.h
+
+1460376127 source:f:\fmi\semestrul 2\oop\oop2- version 3\main.cpp
+	<iostream>
+	"resource_manager.h"
+	"tree.h"
+	"image.h"
+	"sound.h"
+	"video.h"
+	"rock.h"
+
+1460376588 f:\fmi\semestrul 2\oop\oop2- version 3\resource_manager.h
+	<map>
+	"resource.h"
+
+1460373372 f:\fmi\semestrul 2\oop\oop2- version 3\tree.h
+	"game_object.h"
+
+1460230921 f:\fmi\semestrul 2\oop\oop2- version 3\sound.h
+	"resource.h"
+
+1460230911 f:\fmi\semestrul 2\oop\oop2- version 3\video.h
+	"resource.h"
+
+1460373493 f:\fmi\semestrul 2\oop\oop2- version 3\rock.h
+	"game_object.h"
+
+1460376166 source:f:\fmi\semestrul 2\oop\oop2- version 3\resource.cpp
+	"resource.h"
+	<iostream>
+
+1460376202 source:f:\fmi\semestrul 2\oop\oop2- version 3\resource_manager.cpp
+	<iostream>
+	<map>
+	"resource_manager.h"
+	"resource.h"
+
+1460373273 source:f:\fmi\semestrul 2\oop\oop2- version 3\rock.cpp
+	"game_object.h"
+	"rock.h"
+
+1460230916 source:f:\fmi\semestrul 2\oop\oop2- version 3\sound.cpp
+	"resource.h"
+	"sound.h"
+
+1460231240 source:f:\fmi\semestrul 2\oop\oop2- version 3\video.cpp
+	"resource.h"
+	"video.h"
+
+1460372559 source:f:\fmi\semestrul 2\oop\oop2- version 3\tree.cpp
+	"game_object.h"
+	"tree.h"
+
+1460372930 source:f:\fmi\semestrul 2\oop\resource manager\game_object.cpp
+	"game_object.h"
+
+1460373477 f:\fmi\semestrul 2\oop\resource manager\game_object.h
+
+1460306018 source:f:\fmi\semestrul 2\oop\resource manager\image.cpp
+	"image.h"
+	"resource.h"
+
+1460230947 f:\fmi\semestrul 2\oop\resource manager\image.h
+	"resource.h"
+
+1460235964 f:\fmi\semestrul 2\oop\resource manager\resource.h
+
+1460376786 source:f:\fmi\semestrul 2\oop\resource manager\main.cpp
+	<iostream>
+	"resource_manager.h"
+	"tree.h"
+	"image.h"
+	"sound.h"
+	"video.h"
+	"rock.h"
+
+1460376799 f:\fmi\semestrul 2\oop\resource manager\resource_manager.h
+	<map>
+	"resource.h"
+
+1460373372 f:\fmi\semestrul 2\oop\resource manager\tree.h
+	"game_object.h"
+
+1460230921 f:\fmi\semestrul 2\oop\resource manager\sound.h
+	"resource.h"
+
+1460230911 f:\fmi\semestrul 2\oop\resource manager\video.h
+	"resource.h"
+
+1460373493 f:\fmi\semestrul 2\oop\resource manager\rock.h
+	"game_object.h"
+
+1460376166 source:f:\fmi\semestrul 2\oop\resource manager\resource.cpp
+	"resource.h"
+	<iostream>
+
+1460376806 source:f:\fmi\semestrul 2\oop\resource manager\resource_manager.cpp
+	<iostream>
+	<map>
+	"resource_manager.h"
+	"resource.h"
+
+1460373273 source:f:\fmi\semestrul 2\oop\resource manager\rock.cpp
+	"game_object.h"
+	"rock.h"
+
+1460230916 source:f:\fmi\semestrul 2\oop\resource manager\sound.cpp
+	"resource.h"
+	"sound.h"
+
+1460372559 source:f:\fmi\semestrul 2\oop\resource manager\tree.cpp
+	"game_object.h"
+	"tree.h"
+
+1460231240 source:f:\fmi\semestrul 2\oop\resource manager\video.cpp
+	"resource.h"
+	"video.h"
+
