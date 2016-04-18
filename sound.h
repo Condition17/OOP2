@@ -6,5 +6,4 @@ class sound: public resource {
     sound(char* file_path);
     char* get_speciffic();
 };
-
 #endif // SOUND_H_INCLUDED

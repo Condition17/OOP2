@@ -7,3 +7,4 @@ game_object(x,y,collider,  image_label, sound_label, video_label){
 rock::~rock(){
  }
 
+
